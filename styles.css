@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://img.freepik.com/free-vector/80-style-background-with-geometric-shapes_23-2148216130.jpg?w=1480&t=st=1670483761~exp=1670484361~hmac=048b00c14245adfad1a14087ca561c0d5a70fa8930458d663704b520455cbd11");
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+header{
+    width: 95%;
+    max-width: 788px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-top: 15px;
+}
+.share-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: aliceblue ;
+}
+.share-button svg{
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-bottom: 10px;
+}
+.container{
+    width: 90%;
+    max-width: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+    color: coral;
+}
+.name{
+    background-color: rgba(14, 225, 244, 0.683);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 17px;
+    max-height: 35px;
+    /* height: auto;
+    display: flex;
+    justify-content: space-between; */
+}
+.tile{
+    width: 100%;
+    background-color: rgba(14, 225, 244, 0.915);
+    margin: 7px;
+    border-radius: 17px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.tile p{
+    color: aliceblue;
+}
+
+.tile:hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.2;
+    transform: scale(1.02);
+}
+.tile-share{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: rgba(127, 43, 206, 0.633);
+    margin: 8px;
+}
+.tile-share svg{
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-bottom: 10px;
+}
+.img-container{
+    height: 96px;
+    width: 96px;
+    border-radius: 48px;
+    overflow: hidden;
+}
+.img-container img{
+    width: 100%;
+}
+.icons{
+    margin: 4px 8px;
+    height: 44px;
+    width: 44px;
+    
+}
